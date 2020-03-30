@@ -1,0 +1,15 @@
+{
+  "name": "apples2apples",
+  "version": "1.0.0",
+  "description": "apples to apples game",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
+}

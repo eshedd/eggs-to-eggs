@@ -1,0 +1,42 @@
+.img-container { 
+    position: relative; /* To help the image + text element to get along with the rest of the page*/ 
+    width: 100%; /* for IE 6 */ 
+}
+img.resize {
+    width:200px; /* you can use % */
+    height: auto;
+}
+h2 { 
+    transform: rotate(-90deg);
+    position: absolute; /* To place the text on the image*/
+    top: -10px; /* The exact location of the text from the top of the image*/
+    left: -660px; /* Other beautification stuff */
+    width: 100%; 
+}
+
+h2 span {
+    color: black;
+    font: bold 40px/45px Helvetica, Sans-Serif;
+}
+
+.description1 {
+    width: 300px;
+}
+
+h3 {
+    position: absolute;
+    top: -500px;
+    left: 500px;
+    width: 100%;
+}
+
+h3 span /* decorating the text within the span tag */ { 
+    color: white; 
+    font: bold 20px/45px Helvetica, Sans-Serif; 
+    letter-spacing: -1px; 
+    background: rgb(0, 0, 0); /* fallback color */ 
+    background: rgba(0, 0, 0, 0.7); padding: 10px; 
+}
+h3 span.spacer { 
+    padding:0 5px; 
+} /* to pad the background color of text to make it look more elegant */
